@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flower petals -->
+  <path d="M100 70C110 60 120 55 140 50C120 65 110 75 100 90C90 75 80 65 60 50C80 55 90 60 100 70Z" 
+        fill="#D8C3A5" 
+        opacity="0.6"/>
+  <!-- Leaves -->
+  <path d="M110 90C130 85 150 85 170 95C150 95 130 100 110 110C90 100 70 95 50 95C70 85 90 85 110 90Z" 
+        fill="#6B8E92" 
+        opacity="0.4"/>
+  <path d="M90 110C70 115 50 115 30 105C50 105 70 100 90 90C110 100 130 105 150 105C130 115 110 115 90 110Z" 
+        fill="#6B8E92" 
+        opacity="0.4"/>
+</svg> 
