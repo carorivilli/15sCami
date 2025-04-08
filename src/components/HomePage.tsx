@@ -513,7 +513,7 @@ const HomePage = () => {
             {/* Botón de confirmación */}
             <div className="text-center">
               <a
-                href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true"
+                href="https://docs.google.com/forms/d/1LBdfa_lI4EkJGtzk8WfIpX6dNCtjKcEPMpSBuI4UD9E/viewform?edit_requested=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-[#9C6644] text-white font-dancing text-xl md:text-2xl lg:text-3xl px-6 md:px-8 lg:px-12 py-3 md:py-4 rounded-full hover:bg-[#805536] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
