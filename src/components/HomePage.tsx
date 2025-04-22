@@ -441,10 +441,15 @@ const HomePage = () => {
             <h2 className="font-dancing text-3xl md:text-6xl lg:text-7xl text-[#9C6644] text-center font-bold mb-6 md:mb-8 lg:mb-12 mt-4 drop-shadow-lg">
               CONFIRMA TU ASISTENCIA
             </h2>
-            <p className="font-playfair text-xl mb-8 text-center md:text-3xl text-[#9C6644] drop-shadow-lg font-bold">
-                Tiempo para confirmar: Hasta el 10 de Junio
+            <div className="max-w-2xl mx-auto mb-8 p-4 md:p-6 rounded-lg bg-gradient-to-r from-[#F7E7CE] via-[#E5CCA8] to-[#F7E7CE] shadow-lg">
+              <p className="font-playfair text-lg md:text-2xl text-[#805536] text-center drop-shadow-lg font-bold">
+                ⚠️ Importante ⚠️
               </p>
-
+              <p className="font-playfair text-base md:text-xl text-[#805536] text-center mt-2 drop-shadow-lg">
+                Si no confirmas tu asistencia hasta el 10 de Junio,<br />
+                se considerará que no podrás asistir.
+              </p>
+            </div>
 
             {/* Carrusel de fotos */}
             <div className="w-full max-w-[95%] md:max-w-3xl lg:max-w-4xl mx-auto mb-8 md:mb-12">
