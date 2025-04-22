@@ -173,7 +173,7 @@ const HomePage = () => {
 
           {/* Contenido con z-index elevado para estar sobre el fondo */}
           <div className="relative z-10">
-            <h1 className="font-dancing text-5xl md:text-6xl lg:text-7xl text-[#9C6644] text-center mb-8 drop-shadow-lg">
+            <h1 className="font-dancing text-6xl md:text-6xl lg:text-7xl text-[#9C6644] text-center mb-8 drop-shadow-lg">
               Mis XV Cami
             </h1>
 
@@ -257,8 +257,8 @@ const HomePage = () => {
           <h2 className="font-dancing text-5xl md:text-6xl text-[#9C6644] text-center mb-2">
             ¿CUÁNDO?
           </h2>
-          <p className="font-dancing text-3xl md:text-4xl text-[#805536] text-center mb-8">
-            Julio 2025
+          <p className="font-playfair text-2xl mt-4 md:text-4xl text-[#805536] text-center mb-8">
+            12 de Julio de 2025
           </p>
           <div className="max-w-md mx-auto bg-white rounded-lg p-6 shadow-inner relative">
             {generateCalendar()}
@@ -307,10 +307,10 @@ const HomePage = () => {
               />
             </div>
 
-            <h2 className="font-dancing text-5xl md:text-6xl text-[#9C6644] text-center mb-8 mt-4 drop-shadow-lg">
+            <h2 className="font-dancing text-4xl md:text-6xl text-[#9C6644] text-center mb-8 mt-4 drop-shadow-lg">
               ¿DÓNDE?
             </h2>
-            <p className="font-dancing text-3xl md:text-5xl text-[#805536] text-center mb-8 drop-shadow-lg">
+            <p className="font-playfair text-3xl md:text-5xl text-[#805536] text-center mb-8 drop-shadow-lg">
               Salón Viam
             </p>
 
@@ -331,7 +331,7 @@ const HomePage = () => {
                 href="https://www.google.com/maps/place/VIAM/@-31.2520975,-64.2676601,15z/data=!3m1!4b1!4m6!3m5!1s0x94328353924094e7:0x233d3026898a0242!8m2!3d-31.2521172!4d-64.2492061!16s%2Fg%2F11c5bh8kqj?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[#9C6644] text-white font-dancing text-xl md:text-2xl px-8 py-4 rounded-full hover:bg-[#805536] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                className="inline-block bg-[#9C6644] text-white font-playfair text-xl md:text-2xl px-8 py-4 rounded-full hover:bg-[#805536] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 Ver Ubicación
               </a>
@@ -354,12 +354,12 @@ const HomePage = () => {
 
           {/* Contenido con z-index elevado para estar sobre el fondo */}
           <div className="relative z-10">
-            <h2 className="font-dancing text-5xl md:text-7xl text-[#9C6644] text-center mb-8 mt-4 drop-shadow-lg">
+            <h2 className="font-dancing text-4xl md:text-7xl text-[#9C6644] text-center mb-8 mt-4 drop-shadow-lg">
               DRESSCODE
             </h2>
             {/* Texto de dresscode */}
             <div className="text-center max-w-2xl mx-auto">
-              <p className="font-dancing text-2xl md:text-6xl text-[#805536] mb-4 drop-shadow-lg font-bold">
+              <p className="font-playfair text-2xl md:text-4xl text-[#805536] mb-4 drop-shadow-lg font-bold">
                 Elegante Sport
               </p>
             </div>
@@ -394,12 +394,12 @@ const HomePage = () => {
 
           {/* Contenido con z-index elevado para estar sobre el fondo */}
           <div className="relative z-10">
-            <h2 className="font-dancing text-5xl md:text-7xl text-[#9C6644] text-center mb-8 mt-4 drop-shadow-lg">
+            <h2 className="font-dancing text-4xl md:text-7xl text-[#9C6644] text-center mb-8 mt-4 drop-shadow-lg">
               REGALOS
             </h2>
 
             {/* Icono de cono */}
-            <div className="w-64 mx-auto">
+            <div className="w-32 md:w-64 mx-auto">
               <img
                 src="/regalo.png"
                 alt="Icono de cono"
@@ -409,14 +409,14 @@ const HomePage = () => {
 
             {/* Mensaje de regalos */}
             <div className="text-center max-w-2xl mx-auto">
-              <p className="font-playfair text-2xl md:text-3xl text-black mb-6 drop-shadow-lg leading-relaxed">
+              <p className="font-playfair text-lg md:text-3xl text-black mb-4 md:mb-6 drop-shadow-lg leading-relaxed">
                 Tu presencia es mi mejor regalo,
                 <br />
                 pero si quieres añadir tu toque
                 <br />
                 especial te dejo mi cuenta.
               </p>
-              <p className="font-playfair text-3xl md:text-3xl text-[#9C6644] drop-shadow-lg font-bold">
+              <p className="font-playfair text-xl md:text-3xl text-[#9C6644] drop-shadow-lg font-bold">
                 ALIAS: cami.rivilli
               </p>
             </div>
@@ -438,9 +438,13 @@ const HomePage = () => {
 
           {/* Contenido con z-index elevado para estar sobre el fondo */}
           <div className="relative z-10">
-            <h2 className="font-dancing text-4xl md:text-6xl lg:text-7xl text-[#9C6644] text-center font-bold mb-6 md:mb-8 lg:mb-12 mt-4 drop-shadow-lg">
+            <h2 className="font-dancing text-3xl md:text-6xl lg:text-7xl text-[#9C6644] text-center font-bold mb-6 md:mb-8 lg:mb-12 mt-4 drop-shadow-lg">
               CONFIRMA TU ASISTENCIA
             </h2>
+            <p className="font-playfair text-xl mb-8 text-center md:text-3xl text-[#9C6644] drop-shadow-lg font-bold">
+                Tiempo para confirmar: Hasta el 10 de Junio
+              </p>
+
 
             {/* Carrusel de fotos */}
             <div className="w-full max-w-[95%] md:max-w-3xl lg:max-w-4xl mx-auto mb-8 md:mb-12">
@@ -516,7 +520,7 @@ const HomePage = () => {
                 href="https://docs.google.com/forms/d/1LBdfa_lI4EkJGtzk8WfIpX6dNCtjKcEPMpSBuI4UD9E/viewform?edit_requested=true"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[#9C6644] text-white font-dancing text-xl md:text-2xl lg:text-3xl px-6 md:px-8 lg:px-12 py-3 md:py-4 rounded-full hover:bg-[#805536] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                className="inline-block bg-[#9C6644] text-white font-playfair text-xl md:text-2xl lg:text-3xl px-6 md:px-8 lg:px-12 py-3 md:py-4 rounded-full hover:bg-[#805536] transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 Confirmar Asistencia
               </a>

@@ -66,7 +66,6 @@ const WelcomePage = () => {
               {/* Ubicación */}
               <div className="space-y-1 md:space-y-2 lg:space-y-4">
                 <p className="font-semibold tracking-wide text-sm md:text-2xl lg:text-3xl text-[#9C6644]">VIAM SALÓN DE EVENTOS</p>
-                <p className="text-sm md:text-2xl lg:text-3xl text-black">Dirección</p>
                 <p className="text-sm md:text-2xl lg:text-3xl text-black">Córdoba, Argentina</p>
               </div>
 
