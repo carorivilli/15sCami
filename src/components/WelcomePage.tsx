@@ -60,7 +60,7 @@ const WelcomePage = () => {
                   <div className="w-12 md:w-16 lg:w-24 h-px bg-[#9C6644]"></div>
                 </div>
                 <p className="text-sm md:text-2xl lg:text-3xl text-[#9C6644] tracking-widest font-semibold">JULIO 2025</p>
-                <p className="text-sm md:text-2xl lg:text-3xl text-black mt-2 md:mt-4 lg:mt-6">20:30 HS</p>
+                <p className="text-sm md:text-2xl lg:text-3xl text-black mt-2 md:mt-4 lg:mt-6">20:30 - 03:30</p>
               </div>
 
               {/* Ubicación */}
