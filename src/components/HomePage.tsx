@@ -446,7 +446,7 @@ const HomePage = () => {
                 ⚠️ Importante ⚠️
               </p>
               <p className="font-playfair text-base md:text-xl text-[#805536] text-center mt-2 drop-shadow-lg">
-                Si no confirmas tu asistencia hasta el 10 de Junio,<br />
+                Si no confirmas tu asistencia hasta el 15 de Junio,<br />
                 se considerará que no podrás asistir.
               </p>
             </div>
